@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 //image https://ipfs.io/ipfs/QmeK4BXjQUTNka1pRTmWjURDEGVXC7E8uEB8xUsD2DGz2c
 //url: 'ipfs://bafyreiegi5br4ppsyzwtqaecgq5nqtrp526dyyrvempfudenectfuvecx4/metadata.json'
 
-const callAPI = function () {
+const CallAPI = function () {
   const [gender, setGender] = useState('Male');
   const [cid, setCid] = useState('');
 
@@ -41,4 +41,4 @@ const callAPI = function () {
     </div>
   );
 };
-export default callAPI;
+export default CallAPI;

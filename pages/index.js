@@ -15,15 +15,6 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="http://localhost:3000">Health Data NFT!</a>
         </h1>
-
-        <div className={styles.grid}>
-          <a href="/createNFT" className={styles.card}>
-            <p>Create NFT</p>
-          </a>
-          <a href="/callapi" className={styles.card}>
-            <p>update NFT</p>
-          </a>
-        </div>
       </main>
     </div>
   );
