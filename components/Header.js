@@ -9,8 +9,8 @@ export default function Header() {
       </div>
 
       <div className="flex flex-row items-center">
-        <Link href={`/Callapi`}>
-          <a className="mr-4 p-6">Call NFT Update</a>
+        <Link href={`/CreateNFT`}>
+          <a className="mr-4 p-6">Create NFT</a>
         </Link>
       </div>
     </nav>
