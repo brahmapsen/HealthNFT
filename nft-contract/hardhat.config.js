@@ -33,7 +33,6 @@ module.exports = {
       accounts: [PRIVATE_KEY],
       chainId: 4,
       saveDeployments: true,
-      blockConfirmations: 6,
     },
     mumbai: {
       chainId: 80001,
